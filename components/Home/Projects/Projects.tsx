@@ -138,6 +138,24 @@ const Projects = () => {
           </h1>
           <h1 className="pt-2 font-medium text-white/80">Real-time Communication Platform</h1>
         </div>
+        {/* 8th project */}
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
+          <Image
+            src="/images/p8.png"
+            alt="img"
+            width={800}
+            height={650}
+            className="rounded-lg"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Trimzy
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">Online Saloon Booking Platform</h1>
+        </div>
       </div>
     </div>
   );
