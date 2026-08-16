@@ -67,20 +67,36 @@ const Projects = () => {
           <h1 className="pt-2 font-medium text-white/80">
             Branding & Identity
           </h1>
+          </div>
           {/* 5th project */}
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
           <Image
-            src="/images/p6.png"
+            src="/images/p5.png"
             alt="img"
             width={800}
             height={650}
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Foodie
+            Watch Website
           </h1>
           <h1 className="pt-2 font-medium text-white/80">
-            Food Delivery App
+            E-Commerce Website
+          </h1>
+          {/* 6th project */}
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
+          <Image
+            src="/images/p4.png"
+            alt="img"
+            width={800}
+            height={650}
+            className="rounded-lg"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            EarthNest
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Branding & Identity
           </h1>
         </div>
         </div>
