@@ -67,6 +67,22 @@ const Projects = () => {
           <h1 className="pt-2 font-medium text-white/80">
             Branding & Identity
           </h1>
+          {/* 5th project */}
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
+          <Image
+            src="/images/p6.png"
+            alt="img"
+            width={800}
+            height={650}
+            className="rounded-lg"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Foodie
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Food Delivery App
+          </h1>
+        </div>
         </div>
       </div>
     </div>
