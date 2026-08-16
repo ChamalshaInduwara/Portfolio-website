@@ -81,7 +81,7 @@ const Projects = () => {
             EarthNest
           </h1>
           <h1 className="pt-2 font-medium text-white/80">
-            Branding & Identity
+            Lives on Earth Website
           </h1>
         </div>
         {/* 5th project */}
