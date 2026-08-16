@@ -24,9 +24,9 @@ const Projects = () => {
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Hourly-Based job Platform
+            WorkzUp
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Apps , UI/UX</h1>
+          <h1 className="pt-2 font-medium text-white/80">Online Hourly Based Job Platform</h1>
         </div>
         {/* 2nd project */}
         <div
