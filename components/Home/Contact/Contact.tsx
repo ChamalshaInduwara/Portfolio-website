@@ -17,7 +17,7 @@ const Contact = () => {
                     <div className="flex items-center space-x-3 mb-4">
                         <BiEnvelope className="w-9 h-9 text-cyan-300" />
                         <p className="text-xl font-bold text-gray-400">
-                            chamalsha2003@gmail.com
+                            chamalshainduwara2003@gmail.com
                         </p>
                     </div>
                     <div className="flex items-center space-x-3 mb-4">
