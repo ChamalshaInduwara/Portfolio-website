@@ -62,7 +62,7 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Code-Flow Website
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Pixel-Perfect UI</h1>
+          <h1 className="pt-2 font-medium text-white/80">Simple Website</h1>
         </div>
         {/* 4th project */}
         <div
