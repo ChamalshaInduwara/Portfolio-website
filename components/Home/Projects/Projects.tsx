@@ -11,7 +11,11 @@ const Projects = () => {
       </h1>
       <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {/* 1st project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
           <Image
             src="/images/p1.png"
             alt="img"
@@ -25,7 +29,11 @@ const Projects = () => {
           <h1 className="pt-2 font-medium text-white/80">Apps , UI/UX</h1>
         </div>
         {/* 2nd project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <Image
             src="/images/p2.png"
             alt="img"
@@ -39,7 +47,11 @@ const Projects = () => {
           <h1 className="pt-2 font-medium text-white/80">Web Design</h1>
         </div>
         {/* 3rd project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <Image
             src="/images/p3.png"
             alt="img"
@@ -53,38 +65,11 @@ const Projects = () => {
           <h1 className="pt-2 font-medium text-white/80">Pixel-Perfect UI</h1>
         </div>
         {/* 4th project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
-          <Image
-            src="/images/p4.png"
-            alt="img"
-            width={800}
-            height={650}
-            className="rounded-lg"
-          />
-          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            EarthNest
-          </h1>
-          <h1 className="pt-2 font-medium text-white/80">
-            Branding & Identity
-          </h1>
-          </div>
-          {/* 5th project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
-          <Image
-            src="/images/p5.png"
-            alt="img"
-            width={800}
-            height={650}
-            className="rounded-lg"
-          />
-          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Watch Website
-          </h1>
-          <h1 className="pt-2 font-medium text-white/80">
-            E-Commerce Website
-          </h1>
-          {/* 6th project */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
           <Image
             src="/images/p4.png"
             alt="img"
@@ -99,6 +84,41 @@ const Projects = () => {
             Branding & Identity
           </h1>
         </div>
+        {/* 5th project */}
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
+          <Image
+            src="/images/p5.png"
+            alt="img"
+            width={800}
+            height={650}
+            className="rounded-lg"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Watch Website
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">E-Commerce Website</h1>
+        </div>
+        {/* 6th project */}
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
+          <Image
+            src="/images/p6.png"
+            alt="img"
+            width={800}
+            height={650}
+            className="rounded-lg"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Foodie Website
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">Food Delivery Website</h1>
         </div>
       </div>
     </div>
