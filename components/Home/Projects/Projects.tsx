@@ -44,7 +44,7 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Portfolio Website
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Web Design</h1>
+          <h1 className="pt-2 font-medium text-white/80">About Self</h1>
         </div>
         {/* 3rd project */}
         <div
