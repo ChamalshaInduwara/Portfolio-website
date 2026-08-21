@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
 import {
+  SiAmazon,
   SiDotnet,
+  SiDocker,
   SiExpress,
   SiFastapi,
   SiGit,
@@ -114,6 +116,16 @@ const skills = [
     icon: <SiGit />,
     percentage: 92,
   },
+  {
+    name: "Docker",
+    icon: <SiDocker />,
+    percentage: 82,
+  },
+  {
+    name: "AWS",
+    icon: <SiAmazon />,
+    percentage: 78,
+  },
 ];
 
 const SkillRow = ({
@@ -161,8 +173,8 @@ const Skills = () => {
         My <span className="text-cyan-300">Skills</span>
       </h1>
       <div className="mt-16 space-y-6">
-        <SkillRow row={skills.slice(0, 9)} />
-        <SkillRow row={skills.slice(9)} reverse />
+        <SkillRow row={skills.slice(0, 10)} />
+        <SkillRow row={skills.slice(10)} reverse />
       </div>
     </div>
   );
