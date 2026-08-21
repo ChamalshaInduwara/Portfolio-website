@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@keyframes skills-marquee-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.skills-marquee {
+  display: flex;
+  width: max-content;
+}
+
+.skills-marquee-right {
+  animation: skills-marquee-right 28s linear infinite;
+}
+
+.skills-marquee-left {
+  animation: skills-marquee-left 28s linear infinite;
+}
+
+@keyframes skills-marquee-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
