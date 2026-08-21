@@ -18,7 +18,7 @@ const Projects = () => {
           data-aos-delay="0"
         >
           <Image
-            src="/images/p1.png"
+            src="/images/workzUp.png"
             alt="img"
             width={800}
             height={650}
@@ -39,7 +39,7 @@ const Projects = () => {
           data-aos-delay="100"
         >
           <Image
-            src="/images/p2.png"
+            src="/images/Portfolio.png"
             alt="img"
             width={800}
             height={650}
@@ -58,7 +58,7 @@ const Projects = () => {
           data-aos-delay="200"
         >
           <Image
-            src="/images/p3.png"
+            src="/images/codeflow.png"
             alt="img"
             width={800}
             height={650}
@@ -77,7 +77,7 @@ const Projects = () => {
           data-aos-delay="300"
         >
           <Image
-            src="/images/p4.png"
+            src="/images/earthnest.png"
             alt="img"
             width={800}
             height={650}
@@ -98,7 +98,7 @@ const Projects = () => {
           data-aos-delay="300"
         >
           <Image
-            src="/images/p5.png"
+            src="/images/watch.png"
             alt="img"
             width={800}
             height={650}
@@ -117,7 +117,7 @@ const Projects = () => {
           data-aos-delay="200"
         >
           <Image
-            src="/images/p6.png"
+            src="/images/foodie.png"
             alt="img"
             width={800}
             height={650}
@@ -138,7 +138,7 @@ const Projects = () => {
           data-aos-delay="200"
         >
           <Image
-            src="/images/p7.png"
+            src="/images/connecthub.png"
             alt="img"
             width={800}
             height={650}
@@ -159,7 +159,7 @@ const Projects = () => {
           data-aos-delay="200"
         >
           <Image
-            src="/images/p8.png"
+            src="/images/trimzy.png"
             alt="img"
             width={800}
             height={650}
