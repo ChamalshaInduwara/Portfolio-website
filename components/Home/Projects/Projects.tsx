@@ -12,6 +12,7 @@ const Projects = () => {
       <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
         {/* 1st project */}
         <div
+          className="order-1"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="0"
@@ -26,10 +27,13 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             WorkzUp
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Online Hourly Based Job Platform</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Online Hourly Based Job Platform
+          </h1>
         </div>
         {/* 2nd project */}
         <div
+          className="order-7"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="100"
@@ -48,6 +52,7 @@ const Projects = () => {
         </div>
         {/* 3rd project */}
         <div
+          className="order-5"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
@@ -66,6 +71,7 @@ const Projects = () => {
         </div>
         {/* 4th project */}
         <div
+          className="order-6"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="300"
@@ -86,6 +92,7 @@ const Projects = () => {
         </div>
         {/* 5th project */}
         <div
+          className="order-3"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="300"
@@ -104,6 +111,7 @@ const Projects = () => {
         </div>
         {/* 6th project */}
         <div
+          className="order-4"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
@@ -118,10 +126,13 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Foodie Website
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Food Delivery Website</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Food Delivery Website
+          </h1>
         </div>
         {/* 7th project */}
         <div
+          className="order-2"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
@@ -136,10 +147,13 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             ConnectHub
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Real-time Communication Platform</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Real-time Communication Platform
+          </h1>
         </div>
         {/* 8th project */}
         <div
+          className="order-8"
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
@@ -154,7 +168,9 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Trimzy
           </h1>
-          <h1 className="pt-2 font-medium text-white/80">Online Saloon Booking Platform</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Online Saloon Booking Platform
+          </h1>
         </div>
       </div>
     </div>
